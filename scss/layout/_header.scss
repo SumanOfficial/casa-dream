@@ -1,0 +1,33 @@
+@import "../base/base";
+
+nav {
+  font-size: 20px;
+  .navbar-brand {
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+    }
+  }
+}
+#cd_home {
+  #cd_home_header {
+    background-image: url("../img/home-banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .header-content {
+      //   padding: 200px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 85vh;
+      color: $white;
+
+      h1 {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
