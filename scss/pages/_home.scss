@@ -110,8 +110,11 @@
   }
 }
 #cd_home_process {
-  margin-top: 100px;
+  // margin-top: 100px;
   position: relative;
+  h3 {
+    margin-top: 100px;
+  }
   h2 {
     font-size: 45px;
   }
@@ -169,6 +172,10 @@
     margin-top: 120px;
     background-color: $yellow-light;
     padding: 100px;
+    @include lg {
+      padding: 50px;
+      margin-top: 50px;
+    }
     @include sm {
       padding: 50px 20px;
     }

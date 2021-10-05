@@ -244,6 +244,17 @@ nav .navbar-brand img {
   max-width: 200px;
 }
 
+nav .nav-link {
+  color: #ffffff !important;
+  font-size: 20px !important;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+nav .nav-link:hover {
+  color: #7e2525 !important;
+}
+
 #cd_home #cd_home_header {
   background-image: url("../img/home-banner.png");
   background-position: center center;
@@ -411,8 +422,11 @@ nav .navbar-brand img {
 }
 
 #cd_home_process {
-  margin-top: 100px;
   position: relative;
+}
+
+#cd_home_process h3 {
+  margin-top: 100px;
 }
 
 #cd_home_process h2 {
@@ -483,6 +497,13 @@ nav .navbar-brand img {
   margin-top: 120px;
   background-color: #fff5e5;
   padding: 100px;
+}
+
+@media only screen and (min-width: 1200px) {
+  #cd_home_words .your_words_content {
+    padding: 50px;
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
