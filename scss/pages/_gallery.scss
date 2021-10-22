@@ -1,0 +1,17 @@
+// importing the header
+@import "../layout/header";
+
+#cd_gallery {
+  .cd_gallery_breadcrumb {
+    @extend .cd_breadcrumb;
+  }
+
+  #cd_gallery_gallery {
+    margin-top: 100px;
+    img {
+      margin-top: 30px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

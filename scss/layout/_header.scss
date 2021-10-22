@@ -1,4 +1,5 @@
 @import "../base/base";
+@import "../components/breadcrumb";
 
 nav {
   font-size: 20px;
@@ -13,6 +14,7 @@ nav {
     color: $white !important;
     font-size: 20px !important;
     transition: all 0.2s;
+    font-weight: bold;
 
     &:hover {
       color: $brown !important;

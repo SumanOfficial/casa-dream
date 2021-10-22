@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa Dream</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+      integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="cd_collection">
+      <div id="cd_collection_header">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <div class="container">
+            <!--  Show this only on mobile to medium screens  -->
+            <a class="navbar-brand d-lg-none" href="#"
+              ><img src="./img/CD_White_logo.png" alt="CD Logo"
+            /></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarToggle"
+              aria-controls="navbarToggle"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarToggle"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">ABOUTUS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./collection.html">COLLECTION</a>
+                </li>
+              </ul>
+
+              <!--   Show this only lg screens and up   -->
+              <a class="navbar-brand d-none d-lg-block" href="./index.html"
+                ><img src="./img/CD_White_logo.png" alt="CD Logo"
+              /></a>
+
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./gallery.html">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./blog.html">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- navigaion end here -->
+        <div class="cd_collection_breadcrumb">
+          <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="1000">Our Collection</h1>
+            <p>
+              <a
+                href=""
+                class="prev"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                >Home</a
+              >
+              <a
+                href=""
+                class="current"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                >Collection</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- breadcrumb end -->
+      </div>
+      <!-- header end -->
+
+      <div id="cd_collection_area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 mt-4">
+              <div
+                class="categories"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <h4>CATEGORIES</h4>
+                <p><a href="">Chairs</a> <span class="number"> (6)</span></p>
+                <p><a href="">Furniture</a> <span class="number"> (7)</span></p>
+                <p><a href="">Lamps</a> <span class="number"> (6)</span></p>
+                <p><a href="">Shelves</a> <span class="number"> (0)</span></p>
+                <p><a href="">Sofas</a> <span class="number"> (12)</span></p>
+                <p><a href="">Tables</a><span class="number"> (8)</span></p>
+                <p>
+                  <a href="">Twoseaters</a><span class="number"> (12)</span>
+                </p>
+                <p><a href="">Vases</a><span class="number"> (6)</span></p>
+              </div>
+              <!-- categories end -->
+              <div
+                class="best-seller mt-4"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <h4>BEST SELLERS</h4>
+                <br />
+                <div class="best-seller-item">
+                  <div class="best-seller-item-img">
+                    <img src="./img/best-seller-1.png" alt="" />
+                  </div>
+                  <div class="best-seller-item-content">
+                    <p class="name"><a href="">Glass Table</a></p>
+                    <p class="price">$350</p>
+                  </div>
+                </div>
+                <div class="best-seller-item mt-4">
+                  <div class="best-seller-item-img">
+                    <img src="./img/best-seller-2.png" alt="" />
+                  </div>
+                  <div class="best-seller-item-content">
+                    <p class="name"><a href="">Black Chairs</a></p>
+                    <p class="price">$350</p>
+                  </div>
+                </div>
+              </div>
+              <!-- best seller end -->
+              <div class="tags" data-aos="fade-up" data-aos-duration="1200">
+                <h4>TAGS</h4>
+                <br />
+                <h5>
+                  <a href="">CERAMIC </a> - <a href=""> CHAIRS</a> -
+                  <a href=""> DECOR</a> - <a href="">FURNITURE</a> -
+                  <a href="">LAMPS</a> - <a href="">OFFICE</a> -
+                  <a href="">SHELFS</a> - <a href="">SOFAS</a> -
+                  <a href="">TABLES</a> - <a href="">TWOSEATERS</a> -
+                  <a href="">VASES</a>
+                </h5>
+              </div>
+              <!-- tags end -->
+              <div
+                class="follow-us"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <h4>FOLLOW US</h4>
+                <br />
+                <h5>
+                  <a href="">INSTAGRAM </a> | <a href="">FACEBOOK </a> |
+                  <a href=""> LINKEDIN</a>
+                </h5>
+              </div>
+              <!-- follow us end -->
+            </div>
+            <div class="col-lg-9">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <div class="product-img">
+                      <img src="./img/pro1.png" alt="" />
+                    </div>
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <img src="./img/pro2.png" alt="" />
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <img src="./img/pro3.png" alt="" />
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <img src="./img/pro4.png" alt="" />
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <img src="./img/pro5.png" alt="" />
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <img src="./img/pro6.png" alt="" />
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <img src="./img/pro7.png" alt="" />
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <img src="./img/pro8.png" alt="" />
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div
+                    class="product"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <img src="./img/pro9.png" alt="" />
+                    <div class="product-info">
+                      <h4>
+                        <a href=""> GLASS TABLE </a>
+                      </h4>
+                      <p>$350</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- collection area end -->
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
+              <a class="navbar-brand" href="#"
+                ><img src="./img/CD_White_logo.png" alt="CD Logo" load="lazy"
+              /></a>
+              <p>
+                We make interiors infused with the spirit of contemporary design
+                and minimalist philosophies.
+              </p>
+              <div class="d-flex justify-content-between">
+                <h5>INSTAGRAM</h5>
+                <h5>FACEBOOK</h5>
+                <h5>LINKDIN</h5>
+              </div>
+            </div>
+            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+              <h3>Designers</h3>
+              <p>Ivana Kostadinova</p>
+              <p>Italymobile</p>
+              <p>Sweden Int</p>
+              <p>Arch. France</p>
+            </div>
+            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
+              <h3>Faq</h3>
+              <p>When can I visit your studio?</p>
+              <p>How long does shipping take?</p>
+              <p>Where can I find your catalog?</p>
+              <p>How long does shipping take?</p>
+            </div>
+            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1800">
+              <h3>Subscribe</h3>
+              <div class="form-group mb-5">
+                <label for="exampleFormControlInput1">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                />
+                <small>* Get all the latest offers & info</small>
+              </div>
+              <a href="" class="btn-custom">SUBMIT</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end  -->
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"
+      integrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.18.2/core.min.js"
+      integrity="sha512-g8TodWNzrsxJkADtGuwwvVND2MVKUuisGWZsj2/NtLA/XFDq9biQpeDMcJ8iu71OpabLfDxfEAdTQFdXjmV60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          console.log($(window).scrollTop());
+
+          if ($(window).scrollTop() > 250) {
+            $("nav").css("background-color", "#000");
+          }
+
+          if ($(window).scrollTop() < 251) {
+            $("nav").css("background-color", "transparent");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
