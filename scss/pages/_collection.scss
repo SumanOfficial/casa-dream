@@ -19,7 +19,7 @@
             }
         }
         .slider1 {
-            background-image: url("../../img/header-slider-1.jpg");
+            background-image: url("../img/header-slider-1.jpg");
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -37,11 +37,11 @@
         }
         .slider2 {
             @extend .slider1;
-            background-image: url("../../img/header-slider-2.jpg");
+            background-image: url("../img/header-slider-2.jpg");
         }
         .slider3 {
             @extend .slider1;
-            background-image: url("../../img/header-slider-3.jpg");
+            background-image: url("../img/header-slider-3.jpg");
         }
     }
 

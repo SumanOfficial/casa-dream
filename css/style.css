@@ -2206,7 +2206,7 @@ nav .nav-link:hover {
 }
 
 #cd_collection .header-slider .slider1, #cd_collection .header-slider .slider2, #cd_collection .header-slider .slider3 {
-  background-image: url("../../img/header-slider-1.jpg");
+  background-image: url("../img/header-slider-1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2228,11 +2228,11 @@ nav .nav-link:hover {
 }
 
 #cd_collection .header-slider .slider2 {
-  background-image: url("../../img/header-slider-2.jpg");
+  background-image: url("../img/header-slider-2.jpg");
 }
 
 #cd_collection .header-slider .slider3 {
-  background-image: url("../../img/header-slider-3.jpg");
+  background-image: url("../img/header-slider-3.jpg");
 }
 
 #cd_collection #cd_collection_area {
