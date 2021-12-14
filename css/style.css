@@ -234,30 +234,30 @@ small {
   color: #ffffff;
 }
 
-.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_gallery_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
+.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_project_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
   background-color: #1c1c1c;
   padding: 100px 0;
   margin-top: 150px;
 }
 
-.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_gallery_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
+.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_project_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
   color: #ffffff;
 }
 
-.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_gallery_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
+.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_project_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
   font-size: 24px !important;
 }
 
-.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_gallery_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
+.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_project_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
   color: #eab83b;
 }
 
-.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_gallery_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
+.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_project_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
   color: #cb8b1b;
   margin-left: 20px;
 }
 
-.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_gallery_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
+.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_project_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
   background-color: #ffffff;
   width: 100px;
   height: 2px;
@@ -408,8 +408,8 @@ nav .nav-link:hover {
   height: auto;
 }
 
-#cd_home_sale_now_poster .sale_poster, #cd_home_sale_now_poster .now_poster {
-  padding: 350px 0;
+#cd_home_sale_now_poster .sale_poster, #cd_home_sale_now_poster .now_poster, #cd_home_sale_now_poster .sale_new_poster, #cd_home_sale_now_poster .now_new_poster {
+  padding: 250px 0;
   background-image: url("../img/sale.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -419,6 +419,14 @@ nav .nav-link:hover {
 
 #cd_home_sale_now_poster .now_poster {
   background-image: url("../img/now.png");
+}
+
+#cd_home_sale_now_poster .sale_new_poster {
+  background-image: url("../../img/new-sale.png");
+}
+
+#cd_home_sale_now_poster .now_new_poster {
+  background-image: url("../../img/now-new.png");
 }
 
 #cd_home_collection .collection_heading {
@@ -918,30 +926,30 @@ small {
   color: #ffffff;
 }
 
-.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_gallery_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
+.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_project_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
   background-color: #1c1c1c;
   padding: 100px 0;
   margin-top: 150px;
 }
 
-.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_gallery_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
+.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_project_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
   color: #ffffff;
 }
 
-.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_gallery_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
+.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_project_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
   font-size: 24px !important;
 }
 
-.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_gallery_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
+.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_project_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
   color: #eab83b;
 }
 
-.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_gallery_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
+.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_project_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
   color: #cb8b1b;
   margin-left: 20px;
 }
 
-.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_gallery_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
+.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_project_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
   background-color: #ffffff;
   width: 100px;
   height: 2px;
@@ -1082,6 +1090,15 @@ nav .nav-link:hover {
   height: auto;
 }
 
+#cd_about_why {
+  margin-top: 100px;
+}
+
+#cd_about_why i {
+  color: #eab83b;
+  font-size: 24px !important;
+}
+
 @font-face {
   font-family: "heading-font";
   src: url("../fonts/Freight-Big-Bold.otf");
@@ -1318,30 +1335,30 @@ small {
   color: #ffffff;
 }
 
-.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_gallery_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
+.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_project_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
   background-color: #1c1c1c;
   padding: 100px 0;
   margin-top: 150px;
 }
 
-.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_gallery_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
+.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_project_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
   color: #ffffff;
 }
 
-.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_gallery_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
+.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_project_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
   font-size: 24px !important;
 }
 
-.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_gallery_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
+.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_project_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
   color: #eab83b;
 }
 
-.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_gallery_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
+.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_project_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
   color: #cb8b1b;
   margin-left: 20px;
 }
 
-.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_gallery_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
+.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_project_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
   background-color: #ffffff;
   width: 100px;
   height: 2px;
@@ -1446,34 +1463,42 @@ nav .nav-link:hover {
   margin-bottom: 50px;
 }
 
+#cd_project .project-heading {
+  margin-top: 200px;
+}
+
+#cd_project .project-heading h1 {
+  color: #fff;
+}
+
 #cd_project #cd_project_gallery {
   margin-top: 100px;
 }
 
-#cd_project #cd_project_gallery img {
-  width: 100%;
-  height: auto;
-}
-
-#cd_project #cd_project_gallery .projects-item {
-  margin-top: 20px;
-  padding: 40px;
-  background-color: #1c1c1c;
-}
-
-@media only screen and (max-width: 600px) {
-  #cd_project #cd_project_gallery .projects-item {
-    padding: 20px;
-  }
-}
-
-#cd_project #cd_project_why {
+#cd_project #cd_project_gallery .project-item {
   margin-top: 100px;
 }
 
-#cd_project #cd_project_why i {
-  color: #eab83b;
-  font-size: 24px !important;
+#cd_project #cd_project_gallery .project-item .project-item-img-1, #cd_project #cd_project_gallery .project-item .project-item-img-2, #cd_project #cd_project_gallery .project-item .project-item-img-3 {
+  background-image: url("../../img/project1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+#cd_project #cd_project_gallery .project-item .project-item-img-1 a, #cd_project #cd_project_gallery .project-item .project-item-img-2 a, #cd_project #cd_project_gallery .project-item .project-item-img-3 a {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+}
+
+#cd_project #cd_project_gallery .project-item .project-item-img-2 {
+  background-image: url("../../img/project2.jpg");
+}
+
+#cd_project #cd_project_gallery .project-item .project-item-img-3 {
+  background-image: url("../../img/project3.jpg");
 }
 
 @font-face {
@@ -1712,30 +1737,30 @@ small {
   color: #ffffff;
 }
 
-.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_gallery_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
+.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_project_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
   background-color: #1c1c1c;
   padding: 100px 0;
   margin-top: 150px;
 }
 
-.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_gallery_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
+.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_project_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
   color: #ffffff;
 }
 
-.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_gallery_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
+.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_project_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
   font-size: 24px !important;
 }
 
-.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_gallery_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
+.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_project_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
   color: #eab83b;
 }
 
-.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_gallery_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
+.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_project_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
   color: #cb8b1b;
   margin-left: 20px;
 }
 
-.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_gallery_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
+.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_project_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
   background-color: #ffffff;
   width: 100px;
   height: 2px;
@@ -2084,30 +2109,30 @@ small {
   color: #ffffff;
 }
 
-.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_gallery_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
+.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_project_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
   background-color: #1c1c1c;
   padding: 100px 0;
   margin-top: 150px;
 }
 
-.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_gallery_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
+.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_project_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
   color: #ffffff;
 }
 
-.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_gallery_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
+.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_project_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
   font-size: 24px !important;
 }
 
-.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_gallery_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
+.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_project_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
   color: #eab83b;
 }
 
-.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_gallery_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
+.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_project_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
   color: #cb8b1b;
   margin-left: 20px;
 }
 
-.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_gallery_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
+.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_project_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
   background-color: #ffffff;
   width: 100px;
   height: 2px;
@@ -2370,11 +2395,13 @@ nav .nav-link:hover {
 
 #cd_collection .product {
   margin-top: 30px;
+  padding: 10px;
 }
 
 #cd_collection .product img {
   width: 100%;
   height: auto;
+  max-height: 600px;
 }
 
 #cd_collection .product .product-info {
@@ -2633,30 +2660,30 @@ small {
   color: #ffffff;
 }
 
-.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_gallery_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
+.cd_breadcrumb, #cd_about_header .cd_about_breadcrumb, #cd_project .cd_project_breadcrumb, #cd_contact .cd_contact_breadcrumb, #cd_collection .cd_collection_breadcrumb, #cd_blog .cd_blog_breadcrumb {
   background-color: #1c1c1c;
   padding: 100px 0;
   margin-top: 150px;
 }
 
-.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_gallery_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
+.cd_breadcrumb h1, #cd_about_header .cd_about_breadcrumb h1, #cd_project .cd_project_breadcrumb h1, #cd_contact .cd_contact_breadcrumb h1, #cd_collection .cd_collection_breadcrumb h1, #cd_blog .cd_blog_breadcrumb h1 {
   color: #ffffff;
 }
 
-.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_gallery_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
+.cd_breadcrumb a, #cd_about_header .cd_about_breadcrumb a, #cd_project .cd_project_breadcrumb a, #cd_contact .cd_contact_breadcrumb a, #cd_collection .cd_collection_breadcrumb a, #cd_blog .cd_blog_breadcrumb a {
   font-size: 24px !important;
 }
 
-.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_gallery_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
+.cd_breadcrumb a:hover, #cd_about_header .cd_about_breadcrumb a:hover, #cd_project .cd_project_breadcrumb a:hover, #cd_contact .cd_contact_breadcrumb a:hover, #cd_collection .cd_collection_breadcrumb a:hover, #cd_blog .cd_blog_breadcrumb a:hover {
   color: #eab83b;
 }
 
-.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_gallery_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
+.cd_breadcrumb .current, #cd_about_header .cd_about_breadcrumb .current, #cd_project .cd_project_breadcrumb .current, #cd_contact .cd_contact_breadcrumb .current, #cd_collection .cd_collection_breadcrumb .current, #cd_blog .cd_blog_breadcrumb .current {
   color: #cb8b1b;
   margin-left: 20px;
 }
 
-.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_gallery_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
+.cd_breadcrumb .dash, #cd_about_header .cd_about_breadcrumb .dash, #cd_project .cd_project_breadcrumb .dash, #cd_contact .cd_contact_breadcrumb .dash, #cd_collection .cd_collection_breadcrumb .dash, #cd_blog .cd_blog_breadcrumb .dash {
   background-color: #ffffff;
   width: 100px;
   height: 2px;

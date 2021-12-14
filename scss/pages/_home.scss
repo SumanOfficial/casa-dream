@@ -36,7 +36,7 @@
         height: auto;
     }
     .sale_poster {
-        padding: 350px 0;
+        padding: 250px 0;
         background-image: url("../img/sale.png");
         background-position: center center;
         background-repeat: no-repeat;
@@ -46,6 +46,14 @@
     .now_poster {
         @extend .sale_poster;
         background-image: url("../img/now.png");
+    }
+    .sale_new_poster {
+        @extend .sale_poster;
+        background-image: url("../../img/new-sale.png");
+    }
+    .now_new_poster {
+        @extend .sale_poster;
+        background-image: url("../../img/now-new.png");
     }
 }
 
