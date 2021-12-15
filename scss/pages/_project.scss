@@ -16,7 +16,7 @@
         .project-item {
             margin-top: 100px;
             .project-item-img-1 {
-                background-image: url("../../img/project1.jpg");
+                background-image: url("../img/project1.jpg");
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -29,11 +29,11 @@
             }
             .project-item-img-2 {
                 @extend .project-item-img-1;
-                background-image: url("../../img/project2.jpg");
+                background-image: url("../img/project2.jpg");
             }
             .project-item-img-3 {
                 @extend .project-item-img-1;
-                background-image: url("../../img/project3.jpg");
+                background-image: url("../img/project3.jpg");
             }
         }
     }

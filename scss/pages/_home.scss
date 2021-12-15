@@ -49,11 +49,11 @@
     }
     .sale_new_poster {
         @extend .sale_poster;
-        background-image: url("../../img/new-sale.png");
+        background-image: url("../img/new-sale.png");
     }
     .now_new_poster {
         @extend .sale_poster;
-        background-image: url("../../img/now-new.png");
+        background-image: url("../img/now-new.png");
     }
 }
 
