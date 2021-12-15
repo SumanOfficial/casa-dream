@@ -422,11 +422,11 @@ nav .nav-link:hover {
 }
 
 #cd_home_sale_now_poster .sale_new_poster {
-  background-image: url("../../img/new-sale.png");
+  background-image: url("../img/new-sale.png");
 }
 
 #cd_home_sale_now_poster .now_new_poster {
-  background-image: url("../../img/now-new.png");
+  background-image: url("../img/now-new.png");
 }
 
 #cd_home_collection .collection_heading {
@@ -1480,7 +1480,7 @@ nav .nav-link:hover {
 }
 
 #cd_project #cd_project_gallery .project-item .project-item-img-1, #cd_project #cd_project_gallery .project-item .project-item-img-2, #cd_project #cd_project_gallery .project-item .project-item-img-3 {
-  background-image: url("../../img/project1.jpg");
+  background-image: url("../img/project1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1494,11 +1494,11 @@ nav .nav-link:hover {
 }
 
 #cd_project #cd_project_gallery .project-item .project-item-img-2 {
-  background-image: url("../../img/project2.jpg");
+  background-image: url("../img/project2.jpg");
 }
 
 #cd_project #cd_project_gallery .project-item .project-item-img-3 {
-  background-image: url("../../img/project3.jpg");
+  background-image: url("../img/project3.jpg");
 }
 
 @font-face {
